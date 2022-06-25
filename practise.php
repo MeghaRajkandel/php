@@ -1,5 +1,10 @@
 <?php 
-$numbers = array(“firstnumber” => 1, “secondnumber” => 2,  “thirdnumber” => 3, “fourthnumber” => 4, “fifthnumber” => 5);
-echo $numbers[‘firstnumber’]; //it prints 1
-echo $numbers[‘fifthnumber’]; //it prints 5
+$marks = array(
+	“mrk” => array(“math”=>97, “science”=>88, “computer”=>92),
+	“sujan” => array(“math”=>70, “science”=>65, “computer”=>99),
+	“sujana” => array(“math”=>46, “science”=>76, “computer”=>75)
+);
+echo $marks[‘mrk’][‘math’];
+echo $marks[‘sujan’][‘math’];
+echo $marks[‘sujana’[‘computer’];
 ?>
